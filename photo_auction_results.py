@@ -841,25 +841,7 @@
 		# http://www.dreweatts.com/cms/pages/lot/36093/98
 		# http://www.dreweatts.com/cms/pages/lot/36093/99
 
-# Photographs and Photobooks - 17 May 2013
-	# http://www.dreweatts.com/cms/pages/auction/
-	# cannot find crawled urls in archive-it dump
-
-	# http://www.dreweatts.com/cms/pages/auction/35995
-	# http://www.dreweatts.com/cms/pages/auction/35931
-	# http://www.dreweatts.com/cms/pages/auction/35919
-	# http://www.dreweatts.com/cms/pages/auction/45162
-	# http://www.dreweatts.com/cms/pages/auction/35854
-	# http://www.dreweatts.com/cms/pages/auction/35852
-	# http://www.dreweatts.com/cms/pages/auction/13422
-	# http://www.dreweatts.com/cms/pages/auction/35764
-	# http://www.dreweatts.com/cms/pages/auction/45050
-	# http://www.dreweatts.com/cms/pages/auction/40052
-	# http://www.dreweatts.com/cms/pages/auction/45038
-	# http://www.dreweatts.com/cms/pages/auction/45033
-	# http://www.dreweatts.com/cms/pages/auction/35719
-	# http://www.dreweatts.com/cms/pages/auction/40048
-	# http://www.dreweatts.com/cms/pages/auction/12710
+# now i'm thinking to just do 2014 and do comparative with swann?
 
 #this is the "writing out data to json" code from the dropbox
 	# import json
