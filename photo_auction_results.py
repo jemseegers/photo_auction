@@ -1,6 +1,6 @@
 # these are all the auctions that contain photographs for sale from dreweatts:
 
-# Photographs & Photobooks - 06 June 2014
+# Photographs & Photobooks - 06 June 2014 - only photo lots
 	# http://www.dreweatts.com/cms/pages/auction/36045
 		# http://www.dreweatts.com/cms/pages/lot/36045/1
 		# http://www.dreweatts.com/cms/pages/lot/36045/10
@@ -150,19 +150,7 @@
 		# http://www.dreweatts.com/cms/pages/lot/36045/229
 		# http://www.dreweatts.com/cms/pages/lot/36045/23
 		# http://www.dreweatts.com/cms/pages/lot/36045/230
-		# http://www.dreweatts.com/cms/pages/lot/36045/231
-		# http://www.dreweatts.com/cms/pages/lot/36045/232
-		# http://www.dreweatts.com/cms/pages/lot/36045/233
-		# http://www.dreweatts.com/cms/pages/lot/36045/234
-		# http://www.dreweatts.com/cms/pages/lot/36045/235
-		# http://www.dreweatts.com/cms/pages/lot/36045/236
-		# http://www.dreweatts.com/cms/pages/lot/36045/237
-		# http://www.dreweatts.com/cms/pages/lot/36045/238
-		# http://www.dreweatts.com/cms/pages/lot/36045/239
 		# http://www.dreweatts.com/cms/pages/lot/36045/24
-		# http://www.dreweatts.com/cms/pages/lot/36045/240
-		# http://www.dreweatts.com/cms/pages/lot/36045/241
-		# http://www.dreweatts.com/cms/pages/lot/36045/242
 		# http://www.dreweatts.com/cms/pages/lot/36045/25
 		# http://www.dreweatts.com/cms/pages/lot/36045/26
 		# http://www.dreweatts.com/cms/pages/lot/36045/27
@@ -246,31 +234,10 @@
 		# http://www.dreweatts.com/cms/pages/lot/36045/98
 		# http://www.dreweatts.com/cms/pages/lot/36045/99
 
-# Affordable Prints, Paintings and Photographs - 01 May 2014		
+# Affordable Prints, Paintings and Photographs - 01 May 2014 - only photo lots		
 	# http://www.dreweatts.com/cms/pages/auction/20630
-		# http://www.dreweatts.com/cms/pages/lot/20630/1
-		# http://www.dreweatts.com/cms/pages/lot/20630/10
-		# http://www.dreweatts.com/cms/pages/lot/20630/100
-		# http://www.dreweatts.com/cms/pages/lot/20630/101
-		# http://www.dreweatts.com/cms/pages/lot/20630/102
-		# http://www.dreweatts.com/cms/pages/lot/20630/103
-		# http://www.dreweatts.com/cms/pages/lot/20630/104
-		# http://www.dreweatts.com/cms/pages/lot/20630/105
-		# http://www.dreweatts.com/cms/pages/lot/20630/106
-		# http://www.dreweatts.com/cms/pages/lot/20630/107
-		# http://www.dreweatts.com/cms/pages/lot/20630/108
-		# http://www.dreweatts.com/cms/pages/lot/20630/109
-		# http://www.dreweatts.com/cms/pages/lot/20630/11
-		# http://www.dreweatts.com/cms/pages/lot/20630/110
-		# http://www.dreweatts.com/cms/pages/lot/20630/112
-		# http://www.dreweatts.com/cms/pages/lot/20630/113
-		# http://www.dreweatts.com/cms/pages/lot/20630/114
-		# http://www.dreweatts.com/cms/pages/lot/20630/115
-		# http://www.dreweatts.com/cms/pages/lot/20630/116
-		# http://www.dreweatts.com/cms/pages/lot/20630/117
 		# http://www.dreweatts.com/cms/pages/lot/20630/118
 		# http://www.dreweatts.com/cms/pages/lot/20630/119
-		# http://www.dreweatts.com/cms/pages/lot/20630/12
 		# http://www.dreweatts.com/cms/pages/lot/20630/120
 		# http://www.dreweatts.com/cms/pages/lot/20630/121
 		# http://www.dreweatts.com/cms/pages/lot/20630/122
@@ -281,7 +248,6 @@
 		# http://www.dreweatts.com/cms/pages/lot/20630/127
 		# http://www.dreweatts.com/cms/pages/lot/20630/128
 		# http://www.dreweatts.com/cms/pages/lot/20630/129
-		# http://www.dreweatts.com/cms/pages/lot/20630/13
 		# http://www.dreweatts.com/cms/pages/lot/20630/130
 		# http://www.dreweatts.com/cms/pages/lot/20630/131
 		# http://www.dreweatts.com/cms/pages/lot/20630/132
@@ -292,7 +258,6 @@
 		# http://www.dreweatts.com/cms/pages/lot/20630/137
 		# http://www.dreweatts.com/cms/pages/lot/20630/138
 		# http://www.dreweatts.com/cms/pages/lot/20630/139
-		# http://www.dreweatts.com/cms/pages/lot/20630/14
 		# http://www.dreweatts.com/cms/pages/lot/20630/140
 		# http://www.dreweatts.com/cms/pages/lot/20630/141
 		# http://www.dreweatts.com/cms/pages/lot/20630/142
@@ -303,7 +268,6 @@
 		# http://www.dreweatts.com/cms/pages/lot/20630/147
 		# http://www.dreweatts.com/cms/pages/lot/20630/148
 		# http://www.dreweatts.com/cms/pages/lot/20630/149
-		# http://www.dreweatts.com/cms/pages/lot/20630/15
 		# http://www.dreweatts.com/cms/pages/lot/20630/150
 		# http://www.dreweatts.com/cms/pages/lot/20630/151
 		# http://www.dreweatts.com/cms/pages/lot/20630/152
@@ -314,7 +278,6 @@
 		# http://www.dreweatts.com/cms/pages/lot/20630/157
 		# http://www.dreweatts.com/cms/pages/lot/20630/158
 		# http://www.dreweatts.com/cms/pages/lot/20630/159
-		# http://www.dreweatts.com/cms/pages/lot/20630/16
 		# http://www.dreweatts.com/cms/pages/lot/20630/160
 		# http://www.dreweatts.com/cms/pages/lot/20630/161
 		# http://www.dreweatts.com/cms/pages/lot/20630/162
@@ -325,7 +288,6 @@
 		# http://www.dreweatts.com/cms/pages/lot/20630/167
 		# http://www.dreweatts.com/cms/pages/lot/20630/168
 		# http://www.dreweatts.com/cms/pages/lot/20630/169
-		# http://www.dreweatts.com/cms/pages/lot/20630/17
 		# http://www.dreweatts.com/cms/pages/lot/20630/170
 		# http://www.dreweatts.com/cms/pages/lot/20630/171
 		# http://www.dreweatts.com/cms/pages/lot/20630/172
@@ -336,100 +298,12 @@
 		# http://www.dreweatts.com/cms/pages/lot/20630/177
 		# http://www.dreweatts.com/cms/pages/lot/20630/178
 		# http://www.dreweatts.com/cms/pages/lot/20630/179
-		# http://www.dreweatts.com/cms/pages/lot/20630/18
 		# http://www.dreweatts.com/cms/pages/lot/20630/180
 		# http://www.dreweatts.com/cms/pages/lot/20630/181
-		# http://www.dreweatts.com/cms/pages/lot/20630/19
-		# http://www.dreweatts.com/cms/pages/lot/20630/2
-		# http://www.dreweatts.com/cms/pages/lot/20630/20
-		# http://www.dreweatts.com/cms/pages/lot/20630/21
-		# http://www.dreweatts.com/cms/pages/lot/20630/22
-		# http://www.dreweatts.com/cms/pages/lot/20630/23
-		# http://www.dreweatts.com/cms/pages/lot/20630/24
-		# http://www.dreweatts.com/cms/pages/lot/20630/25
-		# http://www.dreweatts.com/cms/pages/lot/20630/26
-		# http://www.dreweatts.com/cms/pages/lot/20630/27
-		# http://www.dreweatts.com/cms/pages/lot/20630/28
-		# http://www.dreweatts.com/cms/pages/lot/20630/29
-		# http://www.dreweatts.com/cms/pages/lot/20630/3
-		# http://www.dreweatts.com/cms/pages/lot/20630/30
-		# http://www.dreweatts.com/cms/pages/lot/20630/31
-		# http://www.dreweatts.com/cms/pages/lot/20630/32
-		# http://www.dreweatts.com/cms/pages/lot/20630/33
-		# http://www.dreweatts.com/cms/pages/lot/20630/34
-		# http://www.dreweatts.com/cms/pages/lot/20630/35
-		# http://www.dreweatts.com/cms/pages/lot/20630/36
-		# http://www.dreweatts.com/cms/pages/lot/20630/37
-		# http://www.dreweatts.com/cms/pages/lot/20630/38
-		# http://www.dreweatts.com/cms/pages/lot/20630/39
-		# http://www.dreweatts.com/cms/pages/lot/20630/4
-		# http://www.dreweatts.com/cms/pages/lot/20630/40
-		# http://www.dreweatts.com/cms/pages/lot/20630/41
-		# http://www.dreweatts.com/cms/pages/lot/20630/42
-		# http://www.dreweatts.com/cms/pages/lot/20630/43
-		# http://www.dreweatts.com/cms/pages/lot/20630/44
-		# http://www.dreweatts.com/cms/pages/lot/20630/45
-		# http://www.dreweatts.com/cms/pages/lot/20630/46
-		# http://www.dreweatts.com/cms/pages/lot/20630/47
-		# http://www.dreweatts.com/cms/pages/lot/20630/48
-		# http://www.dreweatts.com/cms/pages/lot/20630/49
-		# http://www.dreweatts.com/cms/pages/lot/20630/5
-		# http://www.dreweatts.com/cms/pages/lot/20630/50
-		# http://www.dreweatts.com/cms/pages/lot/20630/51
-		# http://www.dreweatts.com/cms/pages/lot/20630/52
-		# http://www.dreweatts.com/cms/pages/lot/20630/53
-		# http://www.dreweatts.com/cms/pages/lot/20630/54
-		# http://www.dreweatts.com/cms/pages/lot/20630/55
-		# http://www.dreweatts.com/cms/pages/lot/20630/56
-		# http://www.dreweatts.com/cms/pages/lot/20630/57
-		# http://www.dreweatts.com/cms/pages/lot/20630/58
-		# http://www.dreweatts.com/cms/pages/lot/20630/59
-		# http://www.dreweatts.com/cms/pages/lot/20630/6
-		# http://www.dreweatts.com/cms/pages/lot/20630/60
-		# http://www.dreweatts.com/cms/pages/lot/20630/61
-		# http://www.dreweatts.com/cms/pages/lot/20630/62
-		# http://www.dreweatts.com/cms/pages/lot/20630/63
-		# http://www.dreweatts.com/cms/pages/lot/20630/65
-		# http://www.dreweatts.com/cms/pages/lot/20630/66
-		# http://www.dreweatts.com/cms/pages/lot/20630/67
-		# http://www.dreweatts.com/cms/pages/lot/20630/68
-		# http://www.dreweatts.com/cms/pages/lot/20630/69
-		# http://www.dreweatts.com/cms/pages/lot/20630/7
-		# http://www.dreweatts.com/cms/pages/lot/20630/70
-		# http://www.dreweatts.com/cms/pages/lot/20630/71
-		# http://www.dreweatts.com/cms/pages/lot/20630/72
-		# http://www.dreweatts.com/cms/pages/lot/20630/73
-		# http://www.dreweatts.com/cms/pages/lot/20630/74
-		# http://www.dreweatts.com/cms/pages/lot/20630/75
-		# http://www.dreweatts.com/cms/pages/lot/20630/76
-		# http://www.dreweatts.com/cms/pages/lot/20630/77
-		# http://www.dreweatts.com/cms/pages/lot/20630/78
-		# http://www.dreweatts.com/cms/pages/lot/20630/79
-		# http://www.dreweatts.com/cms/pages/lot/20630/8
-		# http://www.dreweatts.com/cms/pages/lot/20630/80
-		# http://www.dreweatts.com/cms/pages/lot/20630/81
-		# http://www.dreweatts.com/cms/pages/lot/20630/82
-		# http://www.dreweatts.com/cms/pages/lot/20630/83
-		# http://www.dreweatts.com/cms/pages/lot/20630/84
-		# http://www.dreweatts.com/cms/pages/lot/20630/85
-		# http://www.dreweatts.com/cms/pages/lot/20630/86
-		# http://www.dreweatts.com/cms/pages/lot/20630/87
-		# http://www.dreweatts.com/cms/pages/lot/20630/88
-		# http://www.dreweatts.com/cms/pages/lot/20630/89
-		# http://www.dreweatts.com/cms/pages/lot/20630/9
-		# http://www.dreweatts.com/cms/pages/lot/20630/90
-		# http://www.dreweatts.com/cms/pages/lot/20630/91
-		# http://www.dreweatts.com/cms/pages/lot/20630/92
-		# http://www.dreweatts.com/cms/pages/lot/20630/93
-		# http://www.dreweatts.com/cms/pages/lot/20630/94
-		# http://www.dreweatts.com/cms/pages/lot/20630/95
-		# http://www.dreweatts.com/cms/pages/lot/20630/96
-		# http://www.dreweatts.com/cms/pages/lot/20630/97
-		# http://www.dreweatts.com/cms/pages/lot/20630/98
-		# http://www.dreweatts.com/cms/pages/lot/20630/99
 
-# Photo Opportunities - 28 February 2014
-	# http://www.dreweatts.com/cms/pages/auction/
+
+# Photo Opportunities - 28 February 2014 - only photo lots
+	# http://www.dreweatts.com/cms/pages/auction/36117
 		# http://www.dreweatts.com/cms/pages/lot/36117/1
 		# http://www.dreweatts.com/cms/pages/lot/36117/10
 		# http://www.dreweatts.com/cms/pages/lot/36117/100
@@ -674,70 +548,11 @@
 		# http://www.dreweatts.com/cms/pages/lot/36117/314A
 		# http://www.dreweatts.com/cms/pages/lot/36117/314B
 		# http://www.dreweatts.com/cms/pages/lot/36117/315
-		# http://www.dreweatts.com/cms/pages/lot/36117/316
-		# http://www.dreweatts.com/cms/pages/lot/36117/317
-		# http://www.dreweatts.com/cms/pages/lot/36117/318
-		# http://www.dreweatts.com/cms/pages/lot/36117/319
-		# http://www.dreweatts.com/cms/pages/lot/36117/32
-		# http://www.dreweatts.com/cms/pages/lot/36117/320
-		# http://www.dreweatts.com/cms/pages/lot/36117/321
-		# http://www.dreweatts.com/cms/pages/lot/36117/322
-		# http://www.dreweatts.com/cms/pages/lot/36117/323
-		# http://www.dreweatts.com/cms/pages/lot/36117/324
-		# http://www.dreweatts.com/cms/pages/lot/36117/325
-		# http://www.dreweatts.com/cms/pages/lot/36117/326
-		# http://www.dreweatts.com/cms/pages/lot/36117/327
-		# http://www.dreweatts.com/cms/pages/lot/36117/328
-		# http://www.dreweatts.com/cms/pages/lot/36117/329
 		# http://www.dreweatts.com/cms/pages/lot/36117/33
-		# http://www.dreweatts.com/cms/pages/lot/36117/330
-		# http://www.dreweatts.com/cms/pages/lot/36117/331
-		# http://www.dreweatts.com/cms/pages/lot/36117/332
-		# http://www.dreweatts.com/cms/pages/lot/36117/333
-		# http://www.dreweatts.com/cms/pages/lot/36117/334
-		# http://www.dreweatts.com/cms/pages/lot/36117/335
-		# http://www.dreweatts.com/cms/pages/lot/36117/336
-		# http://www.dreweatts.com/cms/pages/lot/36117/337
-		# http://www.dreweatts.com/cms/pages/lot/36117/338
-		# http://www.dreweatts.com/cms/pages/lot/36117/339
 		# http://www.dreweatts.com/cms/pages/lot/36117/34
-		# http://www.dreweatts.com/cms/pages/lot/36117/340
-		# http://www.dreweatts.com/cms/pages/lot/36117/341
-		# http://www.dreweatts.com/cms/pages/lot/36117/342
-		# http://www.dreweatts.com/cms/pages/lot/36117/343
-		# http://www.dreweatts.com/cms/pages/lot/36117/344
-		# http://www.dreweatts.com/cms/pages/lot/36117/345
-		# http://www.dreweatts.com/cms/pages/lot/36117/346
-		# http://www.dreweatts.com/cms/pages/lot/36117/347
-		# http://www.dreweatts.com/cms/pages/lot/36117/348
-		# http://www.dreweatts.com/cms/pages/lot/36117/349
 		# http://www.dreweatts.com/cms/pages/lot/36117/35
-		# http://www.dreweatts.com/cms/pages/lot/36117/350
-		# http://www.dreweatts.com/cms/pages/lot/36117/351
-		# http://www.dreweatts.com/cms/pages/lot/36117/352
-		# http://www.dreweatts.com/cms/pages/lot/36117/353
-		# http://www.dreweatts.com/cms/pages/lot/36117/354
-		# http://www.dreweatts.com/cms/pages/lot/36117/355
-		# http://www.dreweatts.com/cms/pages/lot/36117/356
-		# http://www.dreweatts.com/cms/pages/lot/36117/357
-		# http://www.dreweatts.com/cms/pages/lot/36117/358
-		# http://www.dreweatts.com/cms/pages/lot/36117/359
 		# http://www.dreweatts.com/cms/pages/lot/36117/36
-		# http://www.dreweatts.com/cms/pages/lot/36117/360
-		# http://www.dreweatts.com/cms/pages/lot/36117/361
-		# http://www.dreweatts.com/cms/pages/lot/36117/362
-		# http://www.dreweatts.com/cms/pages/lot/36117/363
-		# http://www.dreweatts.com/cms/pages/lot/36117/364
-		# http://www.dreweatts.com/cms/pages/lot/36117/365
-		# http://www.dreweatts.com/cms/pages/lot/36117/366
-		# http://www.dreweatts.com/cms/pages/lot/36117/367
-		# http://www.dreweatts.com/cms/pages/lot/36117/368
-		# http://www.dreweatts.com/cms/pages/lot/36117/369
 		# http://www.dreweatts.com/cms/pages/lot/36117/37
-		# http://www.dreweatts.com/cms/pages/lot/36117/370
-		# http://www.dreweatts.com/cms/pages/lot/36117/371
-		# http://www.dreweatts.com/cms/pages/lot/36117/372
-		# http://www.dreweatts.com/cms/pages/lot/36117/373
 		# http://www.dreweatts.com/cms/pages/lot/36117/38
 		# http://www.dreweatts.com/cms/pages/lot/36117/39
 		# http://www.dreweatts.com/cms/pages/lot/36117/4
@@ -807,7 +622,7 @@
 		# http://www.dreweatts.com/cms/pages/lot/36117/98
 		# http://www.dreweatts.com/cms/pages/lot/36117/99
 
-#Photographs & Photobooks - 22 November 2013
+#Photographs & Photobooks - 22 November 2013 - only photo lots
 	# http://www.dreweatts.com/cms/pages/auction/36093
 		# http://www.dreweatts.com/cms/pages/lot/36093/1
 		# http://www.dreweatts.com/cms/pages/lot/36093/10
@@ -944,63 +759,6 @@
 		# http://www.dreweatts.com/cms/pages/lot/36093/213
 		# http://www.dreweatts.com/cms/pages/lot/36093/214
 		# http://www.dreweatts.com/cms/pages/lot/36093/215
-		# http://www.dreweatts.com/cms/pages/lot/36093/216
-		# http://www.dreweatts.com/cms/pages/lot/36093/217
-		# http://www.dreweatts.com/cms/pages/lot/36093/218
-		# http://www.dreweatts.com/cms/pages/lot/36093/219
-		# http://www.dreweatts.com/cms/pages/lot/36093/22
-		# http://www.dreweatts.com/cms/pages/lot/36093/220
-		# http://www.dreweatts.com/cms/pages/lot/36093/221
-		# http://www.dreweatts.com/cms/pages/lot/36093/222
-		# http://www.dreweatts.com/cms/pages/lot/36093/223
-		# http://www.dreweatts.com/cms/pages/lot/36093/224
-		# http://www.dreweatts.com/cms/pages/lot/36093/225
-		# http://www.dreweatts.com/cms/pages/lot/36093/226
-		# http://www.dreweatts.com/cms/pages/lot/36093/227
-		# http://www.dreweatts.com/cms/pages/lot/36093/228
-		# http://www.dreweatts.com/cms/pages/lot/36093/229
-		# http://www.dreweatts.com/cms/pages/lot/36093/23
-		# http://www.dreweatts.com/cms/pages/lot/36093/230
-		# http://www.dreweatts.com/cms/pages/lot/36093/231
-		# http://www.dreweatts.com/cms/pages/lot/36093/232
-		# http://www.dreweatts.com/cms/pages/lot/36093/233
-		# http://www.dreweatts.com/cms/pages/lot/36093/234
-		# http://www.dreweatts.com/cms/pages/lot/36093/235
-		# http://www.dreweatts.com/cms/pages/lot/36093/236
-		# http://www.dreweatts.com/cms/pages/lot/36093/237
-		# http://www.dreweatts.com/cms/pages/lot/36093/238
-		# http://www.dreweatts.com/cms/pages/lot/36093/239
-		# http://www.dreweatts.com/cms/pages/lot/36093/24
-		# http://www.dreweatts.com/cms/pages/lot/36093/240
-		# http://www.dreweatts.com/cms/pages/lot/36093/241
-		# http://www.dreweatts.com/cms/pages/lot/36093/242
-		# http://www.dreweatts.com/cms/pages/lot/36093/243
-		# http://www.dreweatts.com/cms/pages/lot/36093/244
-		# http://www.dreweatts.com/cms/pages/lot/36093/245
-		# http://www.dreweatts.com/cms/pages/lot/36093/246
-		# http://www.dreweatts.com/cms/pages/lot/36093/247
-		# http://www.dreweatts.com/cms/pages/lot/36093/248
-		# http://www.dreweatts.com/cms/pages/lot/36093/249
-		# http://www.dreweatts.com/cms/pages/lot/36093/25
-		# http://www.dreweatts.com/cms/pages/lot/36093/250
-		# http://www.dreweatts.com/cms/pages/lot/36093/251
-		# http://www.dreweatts.com/cms/pages/lot/36093/252
-		# http://www.dreweatts.com/cms/pages/lot/36093/253
-		# http://www.dreweatts.com/cms/pages/lot/36093/254
-		# http://www.dreweatts.com/cms/pages/lot/36093/255
-		# http://www.dreweatts.com/cms/pages/lot/36093/256
-		# http://www.dreweatts.com/cms/pages/lot/36093/257
-		# http://www.dreweatts.com/cms/pages/lot/36093/258
-		# http://www.dreweatts.com/cms/pages/lot/36093/259
-		# http://www.dreweatts.com/cms/pages/lot/36093/26
-		# http://www.dreweatts.com/cms/pages/lot/36093/260
-		# http://www.dreweatts.com/cms/pages/lot/36093/261
-		# http://www.dreweatts.com/cms/pages/lot/36093/262
-		# http://www.dreweatts.com/cms/pages/lot/36093/263
-		# http://www.dreweatts.com/cms/pages/lot/36093/264
-		# http://www.dreweatts.com/cms/pages/lot/36093/265
-		# http://www.dreweatts.com/cms/pages/lot/36093/266
-		# http://www.dreweatts.com/cms/pages/lot/36093/267
 		# http://www.dreweatts.com/cms/pages/lot/36093/27
 		# http://www.dreweatts.com/cms/pages/lot/36093/28
 		# http://www.dreweatts.com/cms/pages/lot/36093/29
@@ -1083,7 +841,10 @@
 		# http://www.dreweatts.com/cms/pages/lot/36093/98
 		# http://www.dreweatts.com/cms/pages/lot/36093/99
 
-	# http://www.dreweatts.com/cms/pages/auction/36043
+# Photographs and Photobooks - 17 May 2013
+	# http://www.dreweatts.com/cms/pages/auction/
+	# cannot find crawled urls in archive-it dump
+
 	# http://www.dreweatts.com/cms/pages/auction/35995
 	# http://www.dreweatts.com/cms/pages/auction/35931
 	# http://www.dreweatts.com/cms/pages/auction/35919
