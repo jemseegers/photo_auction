@@ -1,238 +1,44 @@
+# what is this project?
+# i want to webscrape the data off the auction results, write them into a file
+# then i will separate out the unsold works, collect the artist names and count the number of times an artist appears
+# for the works that did sell, i want to separate  them out by the price for which they sold
+# down the line I would like to do this for different years to see the trends
+# now i'm thinking to do comparative with swann? uk v. us - on second thought, baby steps
 # these are all the auctions that contain photographs for sale from dreweatts:
 
 # Photographs & Photobooks - 06 June 2014 - only photo lots
 	# http://www.dreweatts.com/cms/pages/auction/36045
-		# http://www.dreweatts.com/cms/pages/lot/36045/1
-		# http://www.dreweatts.com/cms/pages/lot/36045/10
-		# http://www.dreweatts.com/cms/pages/lot/36045/100
-		# http://www.dreweatts.com/cms/pages/lot/36045/101
-		# http://www.dreweatts.com/cms/pages/lot/36045/102
-		# http://www.dreweatts.com/cms/pages/lot/36045/103
-		# http://www.dreweatts.com/cms/pages/lot/36045/104
-		# http://www.dreweatts.com/cms/pages/lot/36045/105
-		# http://www.dreweatts.com/cms/pages/lot/36045/106
-		# http://www.dreweatts.com/cms/pages/lot/36045/107
-		# http://www.dreweatts.com/cms/pages/lot/36045/108
-		# http://www.dreweatts.com/cms/pages/lot/36045/109
-		# http://www.dreweatts.com/cms/pages/lot/36045/11
-		# http://www.dreweatts.com/cms/pages/lot/36045/110
-		# http://www.dreweatts.com/cms/pages/lot/36045/111
-		# http://www.dreweatts.com/cms/pages/lot/36045/112
-		# http://www.dreweatts.com/cms/pages/lot/36045/113
-		# http://www.dreweatts.com/cms/pages/lot/36045/114
-		# http://www.dreweatts.com/cms/pages/lot/36045/115
-		# http://www.dreweatts.com/cms/pages/lot/36045/116
-		# http://www.dreweatts.com/cms/pages/lot/36045/117
-		# http://www.dreweatts.com/cms/pages/lot/36045/118
-		# http://www.dreweatts.com/cms/pages/lot/36045/119
-		# http://www.dreweatts.com/cms/pages/lot/36045/12
-		# http://www.dreweatts.com/cms/pages/lot/36045/120
-		# http://www.dreweatts.com/cms/pages/lot/36045/121
-		# http://www.dreweatts.com/cms/pages/lot/36045/122
-		# http://www.dreweatts.com/cms/pages/lot/36045/123
-		# http://www.dreweatts.com/cms/pages/lot/36045/124
-		# http://www.dreweatts.com/cms/pages/lot/36045/125
-		# http://www.dreweatts.com/cms/pages/lot/36045/126
-		# http://www.dreweatts.com/cms/pages/lot/36045/127
-		# http://www.dreweatts.com/cms/pages/lot/36045/128
-		# http://www.dreweatts.com/cms/pages/lot/36045/129
-		# http://www.dreweatts.com/cms/pages/lot/36045/13
-		# http://www.dreweatts.com/cms/pages/lot/36045/130
-		# http://www.dreweatts.com/cms/pages/lot/36045/131
-		# http://www.dreweatts.com/cms/pages/lot/36045/132
-		# http://www.dreweatts.com/cms/pages/lot/36045/133
-		# http://www.dreweatts.com/cms/pages/lot/36045/134
-		# http://www.dreweatts.com/cms/pages/lot/36045/135
-		# http://www.dreweatts.com/cms/pages/lot/36045/136
-		# http://www.dreweatts.com/cms/pages/lot/36045/137
-		# http://www.dreweatts.com/cms/pages/lot/36045/138
-		# http://www.dreweatts.com/cms/pages/lot/36045/139
-		# http://www.dreweatts.com/cms/pages/lot/36045/14
-		# http://www.dreweatts.com/cms/pages/lot/36045/140
-		# http://www.dreweatts.com/cms/pages/lot/36045/141
-		# http://www.dreweatts.com/cms/pages/lot/36045/142
-		# http://www.dreweatts.com/cms/pages/lot/36045/143
-		# http://www.dreweatts.com/cms/pages/lot/36045/144
-		# http://www.dreweatts.com/cms/pages/lot/36045/145
-		# http://www.dreweatts.com/cms/pages/lot/36045/146
-		# http://www.dreweatts.com/cms/pages/lot/36045/147
-		# http://www.dreweatts.com/cms/pages/lot/36045/148
-		# http://www.dreweatts.com/cms/pages/lot/36045/149
-		# http://www.dreweatts.com/cms/pages/lot/36045/15
-		# http://www.dreweatts.com/cms/pages/lot/36045/150
-		# http://www.dreweatts.com/cms/pages/lot/36045/151
-		# http://www.dreweatts.com/cms/pages/lot/36045/152
-		# http://www.dreweatts.com/cms/pages/lot/36045/153
-		# http://www.dreweatts.com/cms/pages/lot/36045/154
-		# http://www.dreweatts.com/cms/pages/lot/36045/155
-		# http://www.dreweatts.com/cms/pages/lot/36045/156
-		# http://www.dreweatts.com/cms/pages/lot/36045/157
-		# http://www.dreweatts.com/cms/pages/lot/36045/158
-		# http://www.dreweatts.com/cms/pages/lot/36045/159
-		# http://www.dreweatts.com/cms/pages/lot/36045/16
-		# http://www.dreweatts.com/cms/pages/lot/36045/160
-		# http://www.dreweatts.com/cms/pages/lot/36045/161
-		# http://www.dreweatts.com/cms/pages/lot/36045/162
-		# http://www.dreweatts.com/cms/pages/lot/36045/163
-		# http://www.dreweatts.com/cms/pages/lot/36045/164
-		# http://www.dreweatts.com/cms/pages/lot/36045/165
-		# http://www.dreweatts.com/cms/pages/lot/36045/166
-		# http://www.dreweatts.com/cms/pages/lot/36045/167
-		# http://www.dreweatts.com/cms/pages/lot/36045/168
-		# http://www.dreweatts.com/cms/pages/lot/36045/169
-		# http://www.dreweatts.com/cms/pages/lot/36045/17
-		# http://www.dreweatts.com/cms/pages/lot/36045/170
-		# http://www.dreweatts.com/cms/pages/lot/36045/171
-		# http://www.dreweatts.com/cms/pages/lot/36045/172
-		# http://www.dreweatts.com/cms/pages/lot/36045/173
-		# http://www.dreweatts.com/cms/pages/lot/36045/174
-		# http://www.dreweatts.com/cms/pages/lot/36045/175
-		# http://www.dreweatts.com/cms/pages/lot/36045/176
-		# http://www.dreweatts.com/cms/pages/lot/36045/177
-		# http://www.dreweatts.com/cms/pages/lot/36045/178
-		# http://www.dreweatts.com/cms/pages/lot/36045/179
-		# http://www.dreweatts.com/cms/pages/lot/36045/18
-		# http://www.dreweatts.com/cms/pages/lot/36045/180
-		# http://www.dreweatts.com/cms/pages/lot/36045/181
-		# http://www.dreweatts.com/cms/pages/lot/36045/182
-		# http://www.dreweatts.com/cms/pages/lot/36045/183
-		# http://www.dreweatts.com/cms/pages/lot/36045/184
-		# http://www.dreweatts.com/cms/pages/lot/36045/185
-		# http://www.dreweatts.com/cms/pages/lot/36045/186
-		# http://www.dreweatts.com/cms/pages/lot/36045/187
-		# http://www.dreweatts.com/cms/pages/lot/36045/188
-		# http://www.dreweatts.com/cms/pages/lot/36045/189
-		# http://www.dreweatts.com/cms/pages/lot/36045/19
-		# http://www.dreweatts.com/cms/pages/lot/36045/190
-		# http://www.dreweatts.com/cms/pages/lot/36045/191
-		# http://www.dreweatts.com/cms/pages/lot/36045/192
-		# http://www.dreweatts.com/cms/pages/lot/36045/192A
-		# http://www.dreweatts.com/cms/pages/lot/36045/193
-		# http://www.dreweatts.com/cms/pages/lot/36045/194
-		# http://www.dreweatts.com/cms/pages/lot/36045/195
-		# http://www.dreweatts.com/cms/pages/lot/36045/196
-		# http://www.dreweatts.com/cms/pages/lot/36045/197
-		# http://www.dreweatts.com/cms/pages/lot/36045/198
-		# http://www.dreweatts.com/cms/pages/lot/36045/199
-		# http://www.dreweatts.com/cms/pages/lot/36045/2
-		# http://www.dreweatts.com/cms/pages/lot/36045/20
-		# http://www.dreweatts.com/cms/pages/lot/36045/200
-		# http://www.dreweatts.com/cms/pages/lot/36045/201
-		# http://www.dreweatts.com/cms/pages/lot/36045/202
-		# http://www.dreweatts.com/cms/pages/lot/36045/203
-		# http://www.dreweatts.com/cms/pages/lot/36045/204
-		# http://www.dreweatts.com/cms/pages/lot/36045/205
-		# http://www.dreweatts.com/cms/pages/lot/36045/206
-		# http://www.dreweatts.com/cms/pages/lot/36045/207
-		# http://www.dreweatts.com/cms/pages/lot/36045/208
-		# http://www.dreweatts.com/cms/pages/lot/36045/209
-		# http://www.dreweatts.com/cms/pages/lot/36045/21
-		# http://www.dreweatts.com/cms/pages/lot/36045/210
-		# http://www.dreweatts.com/cms/pages/lot/36045/211
-		# http://www.dreweatts.com/cms/pages/lot/36045/212
-		# http://www.dreweatts.com/cms/pages/lot/36045/213
-		# http://www.dreweatts.com/cms/pages/lot/36045/214
-		# http://www.dreweatts.com/cms/pages/lot/36045/215
-		# http://www.dreweatts.com/cms/pages/lot/36045/216
-		# http://www.dreweatts.com/cms/pages/lot/36045/217
-		# http://www.dreweatts.com/cms/pages/lot/36045/218
-		# http://www.dreweatts.com/cms/pages/lot/36045/219
-		# http://www.dreweatts.com/cms/pages/lot/36045/22
-		# http://www.dreweatts.com/cms/pages/lot/36045/220
-		# http://www.dreweatts.com/cms/pages/lot/36045/221
-		# http://www.dreweatts.com/cms/pages/lot/36045/222
-		# http://www.dreweatts.com/cms/pages/lot/36045/223
-		# http://www.dreweatts.com/cms/pages/lot/36045/224
-		# http://www.dreweatts.com/cms/pages/lot/36045/225
-		# http://www.dreweatts.com/cms/pages/lot/36045/226
-		# http://www.dreweatts.com/cms/pages/lot/36045/227
-		# http://www.dreweatts.com/cms/pages/lot/36045/228
-		# http://www.dreweatts.com/cms/pages/lot/36045/229
-		# http://www.dreweatts.com/cms/pages/lot/36045/23
-		# http://www.dreweatts.com/cms/pages/lot/36045/230
-		# http://www.dreweatts.com/cms/pages/lot/36045/24
-		# http://www.dreweatts.com/cms/pages/lot/36045/25
-		# http://www.dreweatts.com/cms/pages/lot/36045/26
-		# http://www.dreweatts.com/cms/pages/lot/36045/27
-		# http://www.dreweatts.com/cms/pages/lot/36045/28
-		# http://www.dreweatts.com/cms/pages/lot/36045/29
-		# http://www.dreweatts.com/cms/pages/lot/36045/3
-		# http://www.dreweatts.com/cms/pages/lot/36045/30
-		# http://www.dreweatts.com/cms/pages/lot/36045/31
-		# http://www.dreweatts.com/cms/pages/lot/36045/32
-		# http://www.dreweatts.com/cms/pages/lot/36045/33
-		# http://www.dreweatts.com/cms/pages/lot/36045/34
-		# http://www.dreweatts.com/cms/pages/lot/36045/35
-		# http://www.dreweatts.com/cms/pages/lot/36045/36
-		# http://www.dreweatts.com/cms/pages/lot/36045/37
-		# http://www.dreweatts.com/cms/pages/lot/36045/38
-		# http://www.dreweatts.com/cms/pages/lot/36045/39
-		# http://www.dreweatts.com/cms/pages/lot/36045/4
-		# http://www.dreweatts.com/cms/pages/lot/36045/40
-		# http://www.dreweatts.com/cms/pages/lot/36045/41
-		# http://www.dreweatts.com/cms/pages/lot/36045/42
-		# http://www.dreweatts.com/cms/pages/lot/36045/43
-		# http://www.dreweatts.com/cms/pages/lot/36045/44
-		# http://www.dreweatts.com/cms/pages/lot/36045/45
-		# http://www.dreweatts.com/cms/pages/lot/36045/46
-		# http://www.dreweatts.com/cms/pages/lot/36045/47
-		# http://www.dreweatts.com/cms/pages/lot/36045/48
-		# http://www.dreweatts.com/cms/pages/lot/36045/49
-		# http://www.dreweatts.com/cms/pages/lot/36045/5
-		# http://www.dreweatts.com/cms/pages/lot/36045/50
-		# http://www.dreweatts.com/cms/pages/lot/36045/51
-		# http://www.dreweatts.com/cms/pages/lot/36045/52
-		# http://www.dreweatts.com/cms/pages/lot/36045/53
-		# http://www.dreweatts.com/cms/pages/lot/36045/54
-		# http://www.dreweatts.com/cms/pages/lot/36045/55
-		# http://www.dreweatts.com/cms/pages/lot/36045/56
-		# http://www.dreweatts.com/cms/pages/lot/36045/57
-		# http://www.dreweatts.com/cms/pages/lot/36045/58
-		# http://www.dreweatts.com/cms/pages/lot/36045/59
-		# http://www.dreweatts.com/cms/pages/lot/36045/6
-		# http://www.dreweatts.com/cms/pages/lot/36045/60
-		# http://www.dreweatts.com/cms/pages/lot/36045/61
-		# http://www.dreweatts.com/cms/pages/lot/36045/62
-		# http://www.dreweatts.com/cms/pages/lot/36045/63
-		# http://www.dreweatts.com/cms/pages/lot/36045/64
-		# http://www.dreweatts.com/cms/pages/lot/36045/65
-		# http://www.dreweatts.com/cms/pages/lot/36045/66
-		# http://www.dreweatts.com/cms/pages/lot/36045/67
-		# http://www.dreweatts.com/cms/pages/lot/36045/68
-		# http://www.dreweatts.com/cms/pages/lot/36045/69
-		# http://www.dreweatts.com/cms/pages/lot/36045/7
-		# http://www.dreweatts.com/cms/pages/lot/36045/70
-		# http://www.dreweatts.com/cms/pages/lot/36045/71
-		# http://www.dreweatts.com/cms/pages/lot/36045/72
-		# http://www.dreweatts.com/cms/pages/lot/36045/73
-		# http://www.dreweatts.com/cms/pages/lot/36045/74
-		# http://www.dreweatts.com/cms/pages/lot/36045/75
-		# http://www.dreweatts.com/cms/pages/lot/36045/76
-		# http://www.dreweatts.com/cms/pages/lot/36045/77
-		# http://www.dreweatts.com/cms/pages/lot/36045/78
-		# http://www.dreweatts.com/cms/pages/lot/36045/79
-		# http://www.dreweatts.com/cms/pages/lot/36045/8
-		# http://www.dreweatts.com/cms/pages/lot/36045/80
-		# http://www.dreweatts.com/cms/pages/lot/36045/81
-		# http://www.dreweatts.com/cms/pages/lot/36045/82
-		# http://www.dreweatts.com/cms/pages/lot/36045/83
-		# http://www.dreweatts.com/cms/pages/lot/36045/84
-		# http://www.dreweatts.com/cms/pages/lot/36045/85
-		# http://www.dreweatts.com/cms/pages/lot/36045/86
-		# http://www.dreweatts.com/cms/pages/lot/36045/87
-		# http://www.dreweatts.com/cms/pages/lot/36045/88
-		# http://www.dreweatts.com/cms/pages/lot/36045/89
-		# http://www.dreweatts.com/cms/pages/lot/36045/9
-		# http://www.dreweatts.com/cms/pages/lot/36045/90
-		# http://www.dreweatts.com/cms/pages/lot/36045/91
-		# http://www.dreweatts.com/cms/pages/lot/36045/92
-		# http://www.dreweatts.com/cms/pages/lot/36045/93
-		# http://www.dreweatts.com/cms/pages/lot/36045/94
-		# http://www.dreweatts.com/cms/pages/lot/36045/95
-		# http://www.dreweatts.com/cms/pages/lot/36045/96
-		# http://www.dreweatts.com/cms/pages/lot/36045/97
-		# http://www.dreweatts.com/cms/pages/lot/36045/98
-		# http://www.dreweatts.com/cms/pages/lot/36045/99
+
+from bs4 import BeautifulSoup
+import requests
+
+all_lots = {
+		
+}
+
+with open("lots.txt") as lots_urls:
+	for each_lot in lots_urls:
+		lot_requests = requests.get(each_lot)
+		lot_html = lot_requests.text
+		soup = BeautifulSoup(lot_html)
+		#print(lot_html)
+
+
+
+		all_links = soup.find_all("div" , attrs = {"class" : "wide-right-column" })
+		for div_link in all_links:
+			#print(div_link.text)
+
+			artist = div_link.find("h4")
+			artist = artist.text
+			print(artist)
+
+import json
+
+with open('artist_names.json' , 'w') as f:
+	f.write(json.dumps(artist,indent=4))
+
+	
 
 # Affordable Prints, Paintings and Photographs - 01 May 2014 - only photo lots		
 	# http://www.dreweatts.com/cms/pages/auction/20630
@@ -622,58 +428,4 @@
 		# http://www.dreweatts.com/cms/pages/lot/36117/98
 		# http://www.dreweatts.com/cms/pages/lot/36117/99
 
-# now i'm thinking to just do 2014 and do comparative with swann?
 
-#this is the "writing out data to json" code from the dropbox
-	# import json
-
-	# #getting an empty list ready to store my artworks into it
-	# artworks = []
-
-	# #pseudo scrapping code loop goes here 
-	# while scrapping == True:
-		
-	# 	#more pseudo code working with request and beautiful here
-
-	# 	a_work = { "title" : "The title i got from beautiful soup", "artist" : "The artist name i got from beautiful soup" }
-
-	# 	#okay now add it into our list
-	# 	artworks.append(a_work)
-
-	# #okay all done, going to write it out to a formated JSON file
-	# with open('scraped_artworks.json', 'w') as f:
-
-	# 	f.write(json.dumps(artworks,indent=4))
-
-#this is the "beautiful soup demo" code from the dropbox
-	#now we can "query" the soup variable for the paterns we are looking for
-		# all_links = soup.find_all("a", attrs = {"class": "titleLink"})
-
-		# for a_link in all_links:
-
-		# 	#print out the url of each link and the text
-		# 	print(a_link.text)
-		# 	print(a_link['href'])
-
-		# #find all the spans with class titleCell
-		# all_title_cells = soup.find_all("span", attrs = {"class": "titleCell"})
-
-		# for a_title_cell in all_title_cells:
-
-		# 	artist = a_title_cell.find("span", attrs = {"class": "imageArtist"})
-
-		# 	#now we have the arist span, we just want the text of the link so do another find
-		# 	print (artist.find("a").text)
-
-		# 	#lets get the title of the work
-		# 	title = a_title_cell.find("a", attrs = {"class": "titleLink"})
-
-		# 	#if it is not found None is returned so lets make sure we found something
-		# 	if title != None: 
-		# 		print (title.text)
-
-		# #lets find the "Next" link
-		# next_link = soup.find("a",text="Next")
-
-		# print ("The next page is:")
-		# print (next_link)
