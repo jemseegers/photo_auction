@@ -18,7 +18,7 @@ all_lots = {
 		
 }
 
-with open("lots.txt") as lots_urls:
+with open("june_2014_auction.txt") as lots_urls:
 	for each_lot in lots_urls:
 		lot_requests = requests.get(each_lot)
 		lot_html = lot_requests.text

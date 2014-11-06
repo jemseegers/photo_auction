@@ -1,14 +1,3 @@
-# what is this project?
-# i want to webscrape the data off the auction results, write them into a file
-# then i will separate out the unsold works, collect the artist names and count the number of times an artist appears
-# for the works that did sell, i want to separate  them out by the price for which they sold
-# down the line I would like to do this for different years to see the trends
-# now i'm thinking to do comparative with swann? uk v. us - on second thought, baby steps
-# these are all the auctions that contain photographs for sale from dreweatts:
-
-# Photographs & Photobooks - 06 June 2014 - only photo lots
-	# http://www.dreweatts.com/cms/pages/auction/36045
-
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -18,7 +7,7 @@ all_lots = {
 		
 }
 
-with open("lots.txt") as lots_urls:
+with open("may_2014_auction.txt") as lots_urls:
 	for each_lot in lots_urls:
 		lot_requests = requests.get(each_lot)
 		lot_html = lot_requests.text
@@ -64,9 +53,5 @@ with open("lots.txt") as lots_urls:
 #it's only getting the second artist
 import json
 
-with open('june_2014_results.json' , 'w') as f:
+with open('may_2014_results.json' , 'w') as f:
  	f.write(json.dumps(all_lots, indent=4))
-
-
-	
-
