@@ -31,12 +31,18 @@ with open("lots.txt") as lots_urls:
 
 			artist = div_link.find("h4")
 			artist = artist.text
-			print(artist)
+			#print(artist)
 
-import json
+			title = div_link.find("h5")
+			title = title.text
+			print(title)
 
-with open('artist_names.json' , 'w') as f:
-	f.write(json.dumps(artist,indent=4))
+#i don't know how to make all the artists appear in the json file
+#it's only getting the second artist
+# import json
+
+# with open('artist_names.json' , 'w') as f:
+# 	f.write(json.dumps(artist))
 
 	
 
