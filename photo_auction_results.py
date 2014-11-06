@@ -25,24 +25,33 @@ with open("lots.txt") as lots_urls:
 
 
 
-		# all_links = soup.find_all("div" , attrs = {"class" : "wide-right-column" })
-		# for div_link in all_links:
-		# 	#print(div_link.text)
+		all_links = soup.find_all("div" , attrs = {"class" : "wide-right-column" })
+		for div_link in all_links:
+			#print(div_link.text)
 
-		# 	artist = div_link.find("h4")
-		# 	artist = artist.text
-		# 	#print(artist)
+			artist = div_link.find("h4")
+			artist = artist.text
+			#print(artist)
 
-		# 	title = div_link.find("h5")
-		# 	title = title.text
-		# 	print(title)
+			title = div_link.find("h5")
+			title = title.text
+			#print(title)
 
 		p_in_div = soup.find_all("div" , attrs = {"class" : "right-column" })
 		for p_link in p_in_div:
-			print(p_link.text)
+			#print(p_link.text)
 
 			price = p_link.find("p", attrs ={"class" : "price sold"})
 			price = price.text
+			print(price)
+
+import re
+p = re.compile('[0-9]\s')
+m = p.search(price)
+print(m)
+
+
+			#def only_money_or_unsold
 
 #i don't know how to make all the artists appear in the json file
 #it's only getting the second artist
