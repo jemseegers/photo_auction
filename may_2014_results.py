@@ -48,9 +48,8 @@ with open("may_2014_auction.txt") as lots_urls:
 
 
 			#def only_money_or_unsold
+			#was trying to do a function there, but solved the same problem with regular expressions
 
-#i don't know how to make all the artists appear in the json file
-#it's only getting the second artist
 import json
 
 with open('may_2014_results.json' , 'w') as f:

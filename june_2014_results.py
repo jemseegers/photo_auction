@@ -60,8 +60,6 @@ with open("june_2014_auction.txt") as lots_urls:
 
 			#def only_money_or_unsold
 
-#i don't know how to make all the artists appear in the json file
-#it's only getting the second artist
 import json
 
 with open('june_2014_results.json' , 'w') as f:
