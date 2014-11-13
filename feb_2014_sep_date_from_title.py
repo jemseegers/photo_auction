@@ -13,7 +13,7 @@ with open("feb_2014_results.json") as json_file:
 			#print(json_data[a_work]['title'])
 
 			title = json_data[a_work]['title']
-			print(title)
+			#print(title)
 			m = p.findall(title)
 			if len(m) > 0:
 				print(m[0])
