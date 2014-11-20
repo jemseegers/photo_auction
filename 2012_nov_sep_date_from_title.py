@@ -6,7 +6,7 @@ artist_count = {
 	
 }
 
-with open("2012_may_results.json") as json_file:
+with open("2012_nov_results.json") as json_file:
 	json_data = json.load(json_file)
 	#print(json_data)
 
@@ -35,5 +35,5 @@ with open("2012_may_results.json") as json_file:
 
 				json_data[a_work]["date"]=m[0]
 
-with open('2012_may_results_with_dates.json' , 'w') as f:
+with open('2012_nov_results_with_dates.json' , 'w') as f:
  	f.write(json.dumps(json_data, indent=4))
