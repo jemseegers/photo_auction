@@ -7,7 +7,7 @@ artist_count = {
 	
 }
 
-with open("2012_nov_results.json") as json_file:
+with open("june_2014_results.json") as json_file:
 	json_data = json.load(json_file)
 	#print(json_data)
 
@@ -35,6 +35,7 @@ with open("2012_nov_results.json") as json_file:
 				#print(m[0])
 
 				json_data[a_work]["date"]=m[0]
+
 		if "date" in json_data[a_work]:
 			date = json_data[a_work]['date']
 
@@ -70,11 +71,11 @@ with open("2012_nov_results.json") as json_file:
 					if dec[0]=="198" :
 						json_data[a_work]["decade"]= '1980s'
 					if dec[0]=="199" :
-						json_data[a_work]["decade"]= '1990s'
+						json_data[a_work]["decade"]= ('1990s')
 					if dec[0]=="200" :
 						json_data[a_work]["decade"]= '2000s aughts'
 					if dec[0]=="201" :
 						json_data[a_work]["decade"]= '2010s'	
 
-with open('2012_nov_results_with_dates.json' , 'w') as f:
+with open('june_2014_results_with_dates.json' , 'w') as f:
  	f.write(json.dumps(json_data, indent=4))
