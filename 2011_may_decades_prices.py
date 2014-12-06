@@ -11,8 +11,7 @@ for item in data:
 		#print(data[item]["decade"])
 		#print(data[item]["price"])
 		#print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-		dp_analysis.writerow([data[item]['decade']])
-		dp_analysis.writerow(data[item]['price']])
+		dp_analysis.writerow([data[item]['decade'], data[item]['price']])
 	# print(data[item])
 	# print(data[item]["decade"])
 	
