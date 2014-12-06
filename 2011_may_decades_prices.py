@@ -4,17 +4,15 @@ dp_analysis = open('2011_may_results_with_dates.json')
 data = json.load(dp_analysis)
 dp_analysis.close()
 
-dp_analysis=csv.writer(open('dp_analysis.csv' , 'w'))
+dp_analysis=csv.writer(open('2011_may_dp_analysis.csv' , 'w'))
 
 for item in data:
 	if "decade" in data[item] and "price" in data[item]:
-		print(data[item]["decade"])
-		print(data[item]["price"])
-		print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-		dp_analysis.writerow([data[item]['decade'], data[item]['price']])
+		#print(data[item]["decade"])
+		#print(data[item]["price"])
+		#print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+		dp_analysis.writerow([data[item]['decade']])
+		dp_analysis.writerow(data[item]['price']])
 	# print(data[item])
 	# print(data[item]["decade"])
 	
-
-# with open("2011_may_results.json") as json_file:
-# 	json_data = json.load(json_file)
