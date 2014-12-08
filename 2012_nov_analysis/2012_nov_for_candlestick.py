@@ -3,7 +3,7 @@ from statistics import median
 
 all_decades = {}
 
-with open('2013_nov_dp_analysis.csv', 'r') as dpa:
+with open('2012_nov_dp_analysis.csv', 'r') as dpa:
 	reader = csv.reader(dpa)
 
 	for row in reader:
@@ -31,7 +31,7 @@ with open('2013_nov_dp_analysis.csv', 'r') as dpa:
 			all_decades[decade]["values"].append(price)
 
 
-for_candlestick=csv.writer(open('2013_nov_candlestick.csv' , 'w'))
+for_candlestick=csv.writer(open('2012_nov_candlestick.csv' , 'w'))
 
 for decade in sorted(all_decades):
 	average = all_decades[decade]["total price"]/all_decades[decade]["total"]
