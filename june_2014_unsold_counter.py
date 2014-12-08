@@ -16,9 +16,7 @@ with open('june_2014_dp_analysis.csv', 'r') as dpa:
 		#make sure this decade has a key in the dictonary
 		if decade not in all_decades:
 			all_decades[decade] = {}
-			print(all_decades[decade])
 			#so now it is a dictonary with each decade as its own dictonary
-
 
 		#lets see if for this decade we have this price as a key already
 		if price not in all_decades[decade]:
