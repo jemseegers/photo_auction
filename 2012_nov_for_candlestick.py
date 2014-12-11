@@ -30,7 +30,6 @@ with open('2012_nov_dp_analysis.csv', 'r') as dpa:
 		if price != 0:
 			all_decades[decade]["values"].append(price)
 
-
 		#trying to get this to be the number of works actually sold, so 
 		#how to get it to count the number of occurrences price was above 0?
 		if price > 0:

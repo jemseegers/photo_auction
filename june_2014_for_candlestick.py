@@ -35,18 +35,10 @@ with open('june_2014_dp_analysis.csv', 'r') as dpa:
 		#how to get it to count the number of occurrences price was above 0?
 		if price > 0:
 			all_decades[decade]["total sold"] = all_decades[decade]["total sold"]+1
-		
+
 
 for_candlestick=csv.writer(open('june_2014_candlestick.csv' , 'w'))
 
 for decade in sorted(all_decades):
-	
-	median(all_decades[decade]["values"]) = all_decades[decade]["median"]
-		
-		# if len(all_decades[decade]["values"]) > 0:
-			
-		# else:
-		# 	all_decades[decade]["median"] = 0
-
 	average = all_decades[decade]["total price"]/all_decades[decade]["total sold"]
-	for_candlestick.writerow([decade, all_decades[decade]["total price"], all_decades[decade]["total"], all_decades[decade]["total sold"], all_decades[decade]["high"], all_decades[decade]["low"], average, all_decades[decade]["median"]])
+	for_candlestick.writerow([decade, all_decades[decade]["total price"], all_decades[decade]["total"], all_decades[decade]["total sold"], all_decades[decade]["high"], all_decades[decade]["low"], average, median(all_decades[decade]["values"])])
