@@ -11,5 +11,8 @@ pxd_viz.close()
 pxd_viz=csv.writer(open('2011_may_pxd_viz.csv' , 'w'))
 
 for item in data:
+
+	if "price" in data[item]:
+		price = (data[item]["price"]).strip
 	if "date" in data[item] and "price" in data[item]:
 		pxd_viz.writerow([data[item]['date'], data[item]['price']])

@@ -11,11 +11,11 @@ with open('2011_may_dp_analysis.csv', 'r') as td:
 	
 	for row in sort_td:
 		decade = row[0]
-		price = row[1]
+		price = row[1].strip
 
-		if price == "Unsold":
-			price = 0
-		price = int(price)
+		# if price == "Unsold":
+		# 	price = 0
+		# price = int(price)
 
 		if decade not in tally_d:
 			tally_d[decade] = price
