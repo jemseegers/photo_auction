@@ -4,11 +4,11 @@ pxd_viz = {
 
 }
 
-pxd_viz = open('2011_may_results_with_dates.json')
+pxd_viz = open('feb_2014_results_with_dates.json')
 data = json.load(pxd_viz)
 pxd_viz.close()
 
-pxd_viz=csv.writer(open('2011_may_pxd_viz_again.csv' , 'w'))
+pxd_viz=csv.writer(open('2014_feb_viz_again.csv' , 'w'))
 
 for item in data:
 
