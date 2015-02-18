@@ -9,6 +9,7 @@ with open('2011_may_pxd_viz.csv', 'r') as dpa:
 	for row in reader:
 		date = row[0]
 		price = row[1].strip()
+		#how am i doing this wrong?
 
 		if price == "Unsold":
 			price = 0
