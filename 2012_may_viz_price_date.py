@@ -15,4 +15,4 @@ for item in data:
 	if "price" in data[item]:
 		price = (data[item]["price"])
 	if "date" in data[item] and "price" in data[item]:
-		pxd_viz.writerow([data[item]['date'], data[item]['price']])
+		pxd_viz.writerow([data[item]['date'], data[item]['price'], data[item]['artist']])
